@@ -1,0 +1,63 @@
+.tabs {
+    margin-top: 50px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* identical to box height */
+  
+    .tab {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 23px;
+  
+      color: rgba(97, 97, 97, 0.9);
+      border-bottom: 2px solid rgba(242, 178, 243, 0);
+      &:hover {
+        border-bottom: 2px solid rgba(242, 178, 243, 0.6);
+      }
+    }
+  }
+  .user-description {
+    width: 960px;
+    height: 375px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    &__name {
+      padding: 10px 0;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 42px;
+  
+      color: #000000;
+    }
+    &__icon {
+      width: 112px;
+      height: 112px;
+    }
+    &__edit {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 23px;
+      /* identical to box height */
+    }
+  }
+  .user-state {
+    margin-top: 20px;
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* identical to box height */
+  
+    color: #3f3f3f;
+  }

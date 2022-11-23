@@ -1,0 +1,34 @@
+.article-tool {
+    width: 640px;
+    min-height: 94px;
+    background: #ffffff;
+    border-radius: 12px;
+
+    padding: 10px;
+
+    &__column {
+        display: flex;
+        align-items: center
+    }
+
+    &__note-button {
+        width: 136px;
+        height: 30px;
+        background: #F4F7F9;
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    button {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px;
+
+        color: rgba(97, 97, 97, 0.9);
+    }
+}
+
+@import 'Subscribers.scss';
+@import 'UserDescription.scss';
