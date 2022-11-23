@@ -3,7 +3,7 @@ import MainLayout from "../../layout/MainLayout";
 export default function Profile() {
     return (
         <MainLayout>
-            <div className="width:100%;display:flex;justify-content:center;">
+            <div className="profile">
                 <UserDescription></UserDescription>
             </div>
         </MainLayout>

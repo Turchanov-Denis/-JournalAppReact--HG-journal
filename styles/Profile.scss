@@ -1,9 +1,13 @@
+.profile {
+    width:100%;display:flex;justify-content:center;
+}
+
 .article-tool {
     width: 640px;
     min-height: 94px;
     background: #ffffff;
     border-radius: 12px;
-
+    margin-top: 20px;
     padding: 10px;
 
     &__column {
@@ -17,8 +21,12 @@
         background: #F4F7F9;
         border-radius: 20px;
         margin: 10px;
+        
+        
     }
-
+    &__create-button {
+        background-color: rgba(255, 255, 255, 0);
+    }
     button {
         font-family: "Roboto";
         font-style: normal;
@@ -27,6 +35,7 @@
         line-height: 23px;
 
         color: rgba(97, 97, 97, 0.9);
+        
     }
 }
 

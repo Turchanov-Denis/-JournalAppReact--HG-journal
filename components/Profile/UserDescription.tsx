@@ -7,7 +7,8 @@ export default function UserDescription() {
             <div className="user-content">
                 <div className="user-description">
                     <img
-                        src="../HeaderComponent/UserBarImage/avatar.png"
+                    src={require("../HeaderComponent/UserBarImage/avatar.png").default.src}
+                       
                         className="user-description__icon"
                     />
                     <div className="user-description__name">Rafu</div>

@@ -99,7 +99,6 @@ export default {
   }
   &__image {
     width: 90%;
-    
   }
 }
 .article-header {
